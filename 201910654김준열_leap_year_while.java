@@ -6,20 +6,20 @@ public class leap_year_while {
 		Scanner s = new Scanner(System.in);  
 		
 		while(true) { 
-		System.out.print("¿¬µµ¸¦ ÀÔ·ÂÇÏ¼¼¿ä(´Ü,0º¸´Ù ÀÛÀº ¼ö¸¦ ÀÔ·ÂÇÏ¸é Á¾·á) : ");
+		System.out.print("ì—°ë„ë¥¼ ì…ë ¥í•˜ì„¸ìš”(ë‹¨,0ë³´ë‹¤ ì‘ì€ ìˆ˜ë¥¼ ì…ë ¥í•˜ë©´ ì¢…ë£Œ) : ");
 		
 		int y = s.nextInt();
 		
 		if(y <=0){ 
-			System.out.println("ÇÁ·Î±×·¥À» Á¾·áÇÕ´Ï´Ù.");
+			System.out.println("í”„ë¡œê·¸ë¨ì„ ì¢…ë£Œí•©ë‹ˆë‹¤.");
 			break; }
 		
 		if((y%4 == 0 && y%100 != 0)|| y%400 == 0) {
 			
-			System.out.println(y + "³âÀº À±³âÀÔ´Ï´Ù.");
+			System.out.println(y + "ë…„ì€ ìœ¤ë…„ì…ë‹ˆë‹¤.");
 			
 		}else
-			System.out.println(y + "³âÀº Æò³âÀÔ´Ï´Ù.");
+			System.out.println(y + "ë…„ì€ í‰ë…„ì…ë‹ˆë‹¤.");
 		    
 	}
 }
