@@ -4,13 +4,13 @@ public class leap_year {
 
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);  
-		System.out.print("¿¬µµ¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
+		System.out.print("ì—°ë„ë¥¼ ì…ë ¥í•˜ì„¸ìš” : ");
 		int y = s.nextInt();
 		
 		if((y%4 == 0 && y%100 != 0)|| y%400 == 0) {
 	
-			System.out.println(y + "³âÀº À±³âÀÔ´Ï´Ù.");
+			System.out.println(y + "ë…„ì€ ìœ¤ë…„ì…ë‹ˆë‹¤.");
 		}else
-			System.out.println(y + "³âÀº Æò³âÀÔ´Ï´Ù.");
+			System.out.println(y + "ë…„ì€ í‰ë…„ì…ë‹ˆë‹¤.");
 	}
 }
